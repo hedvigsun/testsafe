@@ -61,13 +61,16 @@ $ochre-orange               :#c36f09;
 $saffron-yellow             :#EEBA0B;
 $castleton-green            :#12664F;
 $light-green                :#acc2b5;
+$top-border                 :#567890;
+
+
 
 $body-color                 : $green;  
 $background-color           : $light-green;
 $code-background-color      : $saffron-yellow;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$border-color               : $castleton-green;
 
 $primary-color              : $castleton-green;
 $success-color              : $green;
@@ -104,6 +107,7 @@ $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+
 
 
 /*
@@ -156,7 +160,7 @@ $susy: (
    ========================================================================== */
 
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(86, 133, 105, 0.125);
+$box-shadow                 : 0 1px 1px rgba(86, 133, 105, 0.74);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;

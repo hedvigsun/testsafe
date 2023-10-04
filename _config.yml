@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My title"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Hedvig Sundelin"
 description              : &description "Im human"
@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  people:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -209,10 +209,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _people
   - scope:
       path: ""
-      type: teaching
+      type: people
     values:
       layout: single
       author_profile: true

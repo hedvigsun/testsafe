@@ -131,8 +131,8 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: mix(#fff, $gray, 50%);
-    border: 1px solid $light-gray;
+    color: mix(#39d1b8, $gray, 50%);
+    border: 2px solid #73a397;
     border-radius: $border-radius;
 
     &:hover {
@@ -151,7 +151,7 @@
     }
 
     &.disabled {
-      color: mix(#fff, $gray, 75%);
+      color: mix(#b1b1b1, $gray, 75%);
       pointer-events: none;
       cursor: not-allowed;
     }
