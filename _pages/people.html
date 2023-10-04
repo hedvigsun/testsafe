@@ -1,12 +1,14 @@
 ---
-layout: archive
+layout: myown
 title: "People"
 permalink: /people/
-author_profile: true
+author_profile: false
+author: "Name Name"
 ---
 
 {% include base_path %}
 
-{% for post in site.people reversed %}
+{% for post in site.people %}
   {% include archive-single.html %}
+  {% include author-profile-tiny.html %}
 {% endfor %}

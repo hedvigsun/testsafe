@@ -1,12 +1,12 @@
 ---
-title: "Person 1"
+title: "Person 2"
 collection: people
 type: "title"
-permalink: /people/person-1
+permalink: /people/person-2
 venue: "University"
-excerpt: "Here's johnny! <br/><img src='/hedvigsun/images/bio-photo.jpg'> "
+excerpt: "Here's johnny's friend! <br/><img src='/hedvigsun/images/bio-photo.jpg'>"
 location: "Gothenburg, Sweden"
-author: "Name Name"
+author: "Name2 Name2"
 ---
 
 Information about person number 1
