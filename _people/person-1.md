@@ -7,6 +7,7 @@ venue: "University"
 excerpt: "Here's johnny! <br/><img src='/hedvigsun/images/bio-photo.jpg'> "
 location: "Gothenburg, Sweden"
 author: "Name Name"
+sidebar: true
 ---
 
 Information about person number 1
