@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This is the frontpage of our website"
+title: "Welcome to a work in progress"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
