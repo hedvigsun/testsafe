@@ -10,11 +10,6 @@ redirect_from:
 {% include base_path %}
 
 ## New updates 
+<p style="text-decoration:underline;"><a href="/people.html">New people added!</a></p>
 
-{% for post in site.people %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% for post in site.publications %}
-  {% include archive-single.html %}
-{% endfor %}
+<p style="text-decoration:underline;"><a href="/publications.md">New publications!</a></p>
