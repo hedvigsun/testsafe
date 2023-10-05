@@ -6,7 +6,7 @@ permalink: /people/person-1
 venue: "University"
 excerpt: "Here's johnny! <br/><img src='/hedvigsun/images/bio-photo.jpg'> "
 author: "Hedvig Sundelin"
-sidebar: true
+author_profile: true
 ---
 
 Information about person number 1
