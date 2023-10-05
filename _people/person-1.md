@@ -6,7 +6,7 @@ permalink: /people/person-1
 venue: "University"
 excerpt: "Here's johnny! <br/><img src='/hedvigsun/images/bio-photo.jpg'> "
 location: "Gothenburg, Sweden"
-author: "Name Name"
+author: "Hedvig Sundelin"
 sidebar: true
 ---
 
