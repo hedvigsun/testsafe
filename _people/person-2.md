@@ -1,10 +1,10 @@
 ---
-title: "Person 2"
+title: "Pol Solé Navais"
 collection: people
 type: "title"
 permalink: /people/person-2
 venue: "University"
-location: "Gothenburg, Sweden"
+role:  "Researcher"
 author: "Pol Sole"
 author_profile: true
 ---
