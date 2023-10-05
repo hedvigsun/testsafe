@@ -5,6 +5,7 @@ type: "title"
 permalink: /people/person-1
 venue: "University"
 author: "Hedvig Sundelin"
+role: "Associate Researcher"
 author_profile: true
 ---
 <img align="left" src="/images/cat.png" width="100px" style="padding-right: 15px">
