@@ -9,7 +9,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-## New updates 
+## Latest updates: 
 <p style="text-decoration:underline;"><a href="/hedvigsun/people/">New people added!</a></p>
 
 <p style="text-decoration:underline;"><a href="/hedvigsun/publications/">New publications!</a></p>
