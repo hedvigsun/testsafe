@@ -7,6 +7,7 @@ venue: "University"
 author: "Hedvig Sundelin"
 author_profile: true
 ---
+<img align="left" src="/images/cat.png" width="100px" style="padding-right: 15px">
 
 Information about person number 1
 
