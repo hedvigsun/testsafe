@@ -10,6 +10,6 @@ redirect_from:
 {% include base_path %}
 
 ## New updates 
-<p style="text-decoration:underline;"><a href="/people.html">New people added!</a></p>
+<p style="text-decoration:underline;"><a href="/hedvigsun/people/">New people added!</a></p>
 
-<p style="text-decoration:underline;"><a href="/publications.md">New publications!</a></p>
+<p style="text-decoration:underline;"><a href="/hedvigsun/publications/">New publications!</a></p>
