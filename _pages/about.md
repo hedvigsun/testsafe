@@ -7,5 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+{% include base_path %}
 
-Here we can write some stuff about the group etc
+## New updates 
+
+{% for post in site.pages %}
+  {% include archive-single.html %}
+{% endfor %}
