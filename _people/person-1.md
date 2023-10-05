@@ -8,7 +8,7 @@ author: "Hedvig Sundelin"
 role: "Associate Researcher"
 author_profile: true
 ---
-<img align="left" src="/images/cat.png" width="100px" style="padding-right: 15px">
+<img align="left" src="/hedvigsun/images/cat.png" width="100px" style="padding-right: 15px">
 
 Information about person number 1
 
