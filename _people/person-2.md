@@ -4,7 +4,6 @@ collection: people
 type: "title"
 permalink: /people/person-2
 venue: "University"
-excerpt: "Here's johnny's friend! <br/><img src='/hedvigsun/images/bio-photo.jpg'>"
 location: "Gothenburg, Sweden"
 author: "Pol Sole"
 author_profile: true
