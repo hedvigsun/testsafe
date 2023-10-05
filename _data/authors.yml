@@ -1,18 +1,18 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Hedvig Sundelin:
+  name        : "Hedvig Sundelin"
+  uri         : # "http://name.com"
+  email       : "hedvig.sundelin@gu.se"
+  bio         : "Wasting my time ."
+  avatar      : "cat.png"
+  twitter     : "missbildadkundvagn"
+  github      : "hedvigsun"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
+Pol Sole:
+  name        : "Pol Solé Navais"
+  email       : "pol.sole.navais@gu.se"
   bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  avatar      : "polsole.jpg"
+  orcid       : "https://orcid.org/0000-0002-3326-266X"
+  github      : "psnavais"
