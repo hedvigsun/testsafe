@@ -11,6 +11,10 @@ redirect_from:
 
 ## New updates 
 
-{% for post in site.pages %}
+{% for post in site.people %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% for post in site.publications %}
   {% include archive-single.html %}
 {% endfor %}
