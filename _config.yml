@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
-name                     : &name "Hedvig Sundelin"
-description              : &description "Im human"
+name                     : &name "Perinatal Laboratory"
+description              : &description "Research group"
 url                      : https://hedvigsun.github.io # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/hedvigsun" # the subpath of your site, e.g. "/blog"
 repository               : "hedvigsun.github.io"
@@ -21,7 +21,7 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
@@ -66,8 +66,8 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Organization # Person or Organization (defaults to Person)
+  name                   : Perinatal Lab# If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hedvig Sundelin"
-  avatar           : "cat.png"
-  bio              : "I'm truly human"
+  name             : "Perinatal Lab"
+  avatar           : "pnatal.png"
+  bio              : "Research group"
   location         : "Gothenburg, SE"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  employer         : "Gothenburg University, Sahlgrenska Academy"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Jacobsson+B&cauthor_id=37012456"
+  googlescholar    : "https://scholar.google.no/citations?user=R7FyCn4AAAAJ&hl=no"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  "https://www.researchgate.net/lab/Bo-Jacobsson-Lab" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "perinatallab"
   vine             :
   weibo            :
   xing             :
@@ -215,7 +215,7 @@ defaults:
       type: people
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _publications
