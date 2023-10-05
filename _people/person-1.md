@@ -4,7 +4,6 @@ collection: people
 type: "title"
 permalink: /people/person-1
 venue: "University"
-excerpt: "Here's johnny! <br/><img src='/hedvigsun/images/cat.png'>"
 author: "Hedvig Sundelin"
 author_profile: true
 ---
