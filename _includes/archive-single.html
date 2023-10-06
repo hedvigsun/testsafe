@@ -39,6 +39,9 @@
     {% endif %}
 
         {% if post.collection == 'people' %}
+          {% if post.author and site.data.authors[post.author] %}
+            {% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.author %}
+          {% endif %}
           <div class="author__avatar">
           {% if author.avatar contains "://" %}
     	      <img src="{{ author.avatar }}" alt="{{ author.name }}">
