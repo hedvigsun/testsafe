@@ -6,13 +6,13 @@ Hedvig Sundelin:
   email       : "hedvig.sundelin@gu.se"
   bio         : "Wasting my time ."
   avatar      : "cat.png"
-  linkedin    : "https://www.linkedin.com/in/hedvig-sundelin-20623438/"
+  linkedin    : "hedvig-sundelin-20623438"
   github      : "hedvigsun"
 
 Pol Sole:
   name        : "Pol Solé Navais"
   email       : "pol.sole.navais@gu.se"
-  linkedin    : "https://se.linkedin.com/in/polsolenavais"
+  linkedin    : "polsolenavais"
   bio         : "I ordered what?"
   avatar      : "polsole.jpg"
   orcid       : "https://orcid.org/0000-0002-3326-266X"
@@ -20,6 +20,6 @@ Pol Sole:
 
 Karin Ytterberg:
   name        : "Karin Ytterberg"
-  linkedin    : "https://se.linkedin.com/in/karin-ytterberg-4221701a1"
+  linkedin    : "karin-ytterberg-4221701a1"
   avatar      : "kariny.jpg"
   github      : "ykarin97"
