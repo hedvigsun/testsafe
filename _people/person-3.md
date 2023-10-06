@@ -8,7 +8,6 @@ role: "PhD Student"
 author: "Karin Ytterberg"
 author_profile: true
 ---
-10.1101/2023.02.16.23286023
 Information about person number 3
 
 Recent publications
