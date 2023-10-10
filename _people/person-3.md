@@ -17,27 +17,11 @@ Recent publications
 <div>_Delivering preterm is the leading cause of death in neonates and children under five years of age. Both genetics and environmental factors play a role in timing of delivery, and these influences can be unique to a single pregnancy or shared across pregnancies of the same mother. The aim of this study was to understand how gestational duration is affected by parity and how parity modifies the association between history of preterm delivery and gestational duration. To investigate this, we analysed 1 118 318 spontaneous deliveries (1990 - 2012) from the Swedish Medical Birth Register, with access to pedigrees, using linear regressions and linear mixed models. We found that parity has a modest effect on the mean and a large effect on the variance of gestational duration. Interactions with a woman's clinical and family history of preterm delivery revealed both pregnancy-specific and shared factors. For instance, the effect of a previous preterm delivery on gestational duration is present across pregnancies, but the magnitude of its effect is pregnancy specific. The access to pedigrees made it possible to apply linear mixed models, thus including all woman's pregnancies in the model and accounting for unobserved mother-specific covariates. The linear mixed models highlighted a group effect bias when using linear regression to estimate the association between parity and gestational duration, likely caused by socioeconomic factors. Our study shed light on how parity affects gestational duration and modifies the effect of well-known risk factors of preterm delivery._ </div>
 <a id="more" href="#">Read more </a>
 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
 
-<div class="comment more">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	Vestibulum laoreet, nunc eget laoreet sagittis,
-	quam ligula sodales orci, congue imperdiet eros tortor ac lectus.
-	Duis eget nisl orci. Aliquam mattis purus non mauris
-	blandit id luctus felis convallis.
-	Integer varius egestas vestibulum.
-	Nullam a dolor arcu, ac tempor elit. Donec.
-</div>
-<div class="comment more">
-	Duis nisl nibh, egestas at fermentum at, viverra et purus.
-	Maecenas lobortis odio id sapien facilisis elementum.
-	Curabitur et magna justo, et gravida augue.
-	Sed tristique pellentesque arcu quis tempor.
-</div>
-<div class="comment more">
-	consectetur adipiscing elit. Proin blandit nunc sed sem dictum id feugiat quam blandit.
-	Donec nec sem sed arcu interdum commodo ac ac diam. Donec consequat semper rutrum.
-	Vestibulum et mauris elit. Vestibulum mauris lacus, ultricies.
-</div>
+<button onclick="readMore()" id="myBtn">Read more</button>
+
+
 Heading 2
 ======
 
