@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
 // comment more
-var showChar = 100;
+var showChar = 10;
 var ellipsestext = "...";
 var moretext = "more";
 var lesstext = "less";
