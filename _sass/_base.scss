@@ -304,22 +304,7 @@ nav {
     margin-top: 0;
   }
 }
-/* more comment */
-$(".comment").shorten({
-	"showChars" : 200
-});
 
-
-$(".comment").shorten({
-	"showChars" : 150,
-	"moreText"	: "See More",
-});
-
-$(".comment").shorten({
-	"showChars" : 50,
-	"moreText"	: "See More",
-	"lessText"	: "Less",
-});
 
 
 /*
