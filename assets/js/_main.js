@@ -62,11 +62,18 @@ $(document).ready(function(){
    
    // read more button
    
-   $(".more").on("click", function(){
-      $(this).text("less..").siblings(".complete").show();    
-   }, function(){
-      $(this).text("more..").siblings(".complete").hide();    
+   $('#more').click(function(e) {
+    e.stopPropagation();
+    $('div').css({
+        'height': 'auto'
+    })
    });
+   
+   $(document).click(function() {
+    $('div').css({
+        'height': '50px'
+    })
+   })
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
