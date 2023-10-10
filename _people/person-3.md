@@ -21,7 +21,9 @@ Recent publications
 
 <button onclick="readMore()" id="myBtn">Read more</button>
 
-
+<p class="desc">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla pretium nisi, non dapibus diam rhoncus sed. Vivamus vel nunc venenatis, rutrum felis at, euismod ligula. Aenean vulputate luctus ultricies. Nulla imperdiet ac arcu sit amet vestibulum. Nunc auctor cursus lectus, vel cursus dolor fringilla eget. Vestibulum porta nunc vitae urna tempor, eget aliquam purus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec aliquet eu purus accumsan dignissim. Nulla nisi nulla, bibendum ut rhoncus nec, eleifend quis arcu.
+</p>
 Heading 2
 ======
 
