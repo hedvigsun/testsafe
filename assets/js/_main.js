@@ -63,11 +63,7 @@ $(document).ready(function(){
   $("a").smoothScroll({offset: -20});
    
 // Shorten text
- $(".comment").shorten({
-	 "showChars" : 50,
-	 "moreText"	: "See More",
-	 "lessText"	: "Less",
-   });
+		$(".longcomment").shorten();
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
