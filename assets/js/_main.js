@@ -60,20 +60,8 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
    
-   // read more button
-   
-   $('#more').click(function(e) {
-    e.stopPropagation();
-    $('div').css({
-        'height': 'auto'
-    })
-   });
-   
-   $(document).click(function() {
-    $('div').css({
-        'height': '50px'
-    })
-   })
+   // Shorten text
+   $(".comment").shorten();
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
