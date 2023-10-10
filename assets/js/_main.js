@@ -62,12 +62,11 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
    
-   // Shorten text
-   
-   $(".comment").shorten({
-   	"showChars" : 50,
-   	"moreText"	: "See More",
-   	"lessText"	: "Less",
+// Shorten text
+ $(".comment").shorten({
+	 "showChars" : 50,
+	 "moreText"	: "See More",
+	 "lessText"	: "Less",
    });
 
   // add lightbox class to all image links
@@ -104,19 +103,5 @@ $(document).ready(function(){
     closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
-function readMore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
 });
