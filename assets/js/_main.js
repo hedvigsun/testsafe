@@ -60,8 +60,9 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
    
-// read more button
-   $(".more").toggle(function(){
+   // read more button
+   
+   $(".more").on("click", function(){
       $(this).text("less..").siblings(".complete").show();    
    }, function(){
       $(this).text("more..").siblings(".complete").hide();    
