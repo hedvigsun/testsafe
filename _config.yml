@@ -77,13 +77,16 @@ analytics:
   google:
     tracking_id          : "G-5C1NQ2SQE1"
 
-
+# <li><a href="https://www.google.com/maps/place/{{ author.street | default: "Diagnosvägen"}}+{{ author.streetnumber | default: "15" }},+{{ author.postcode | default: "416+50" }}+{{ author.city | default: "Göteborg" }}" target="_blank"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location | default: "Diagnosvägen 15<br> 41650 Gothenburg" }}</a></li>
+  
 # Site Author
 author:
   name             : "Perinatal Lab"
   avatar           : "pnatal.png"
   bio              : "Research group"
-  location         : "Diagnosvägen+15,+416+50+Göteborg"
+  location         : "Gothenurg, SE"
+  pcode            : "P3C3+W42"
+  city             : "Gothenburg"
   employer         : "Gothenburg University, Sahlgrenska Academy"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Jacobsson+B&cauthor_id=37012456"
   googlescholar    : "https://scholar.google.no/citations?user=R7FyCn4AAAAJ&hl=no"
