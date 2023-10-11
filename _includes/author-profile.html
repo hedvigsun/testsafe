@@ -23,7 +23,7 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><a href="https://www.google.com/maps/place/{{ author.location | default: "Diagnosvägen+15,+416+50+Göteborg" }}" target="_blank"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location | default: "Diagnosvägen 15<br> 41650 Gothenburg" }}</a></li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ author.employer }}</li>
