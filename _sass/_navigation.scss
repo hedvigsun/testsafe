@@ -131,12 +131,13 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: mix(#39d1b8, $gray, 50%);
-    border: 2px solid #73a397;
+    color: $link-color;
+    border: 4px outset mix(#fff, $primary-color, 75%);
     border-radius: $border-radius;
 
     &:hover {
       color: $link-color-hover;
+      border: 3px inset mix(#fff, $primary-color, 50%);
     }
 
     &:first-child {
@@ -175,7 +176,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: $masthead-color;
 
   a {
     display: block;
@@ -196,7 +197,7 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: $masthead-color;
     color: #fff;
     cursor: pointer;
   }

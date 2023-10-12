@@ -142,7 +142,7 @@
     .page__meta,
     .page__lead,
     .btn {
-      color: #086542;
+      color: $primary-color;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
@@ -297,6 +297,7 @@
 .page__comments-form {
   padding: 1em;
   background: $lighter-gray;
+  border-radius: $border-radius;
   transition: $global-transition;
 
   &.disabled {
