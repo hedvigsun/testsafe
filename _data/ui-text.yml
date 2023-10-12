@@ -43,8 +43,6 @@ en-US:
   <<: *DEFAULT_EN
 en-CA:
   <<: *DEFAULT_EN
-en-SE:
-  <<: *DEFAULT_EN
 en-GB:
   <<: *DEFAULT_EN
 en-AU:
@@ -311,7 +309,8 @@ se: &DEFAULT_SE
   loading_label              : "Laddar..."
 se-SE:
   <<: *DEFAULT_SE
-
+en-SE:
+  <<: *DEFAULT_SE
 
 # Another locale
 # --------------
