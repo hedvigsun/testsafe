@@ -6,7 +6,7 @@ excerpt: 'This paper is about the number 2. The number 3 is left for future work
 date: 2023-10-01
 venue: 'Journal 1'
 paperurl: 'https://doi.org/10.1101/2023.02.16.23286023'
-citation: 'Ytterberg, Karin. (2023). &quot;Exploring the impact of parity and its interaction with history of preterm delivery on gestational duration. &quot; <i>Journal 1</i>. 1(2).'
+citation: 'Jacobsson, Bo & Flatley, Christopher & Juodakis, Julius & Nilsson, Staffan & Solé-Navais, Pol. (2023). &quot;Exploring the impact of parity and its interaction with history of preterm delivery on gestational duration. &quot; <i>Journal 1</i>. 1(2).'
 ---
 
 **Exploring the impact of parity and its interaction with history of preterm delivery on gestational duration** <br>
