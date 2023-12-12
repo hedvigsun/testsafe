@@ -21,7 +21,7 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "discourse" # "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
@@ -259,7 +259,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
