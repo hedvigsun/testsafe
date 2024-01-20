@@ -9,7 +9,8 @@ redirect_from:
 ---
 {% include base_path %}
 
-## Latest updates: 
+## Welcome to my testlab!
+Some content are just placeholders for future additions
 <p style="text-decoration:underline;"><a href="/hedvigsun/people/">New people added!</a></p>
 
 <p style="text-decoration:underline;"><a href="/hedvigsun/publications/">New publications!</a></p>
