@@ -3,6 +3,8 @@
    ========================================================================== */
 
 $(document).ready(function(){
+
+	
    // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
@@ -59,6 +61,9 @@ $(document).ready(function(){
 
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
+   
+// Shorten text
+		$(".longcomment").shorten();
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

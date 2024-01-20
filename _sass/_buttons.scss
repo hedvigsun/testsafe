@@ -133,6 +133,12 @@
     }
   }
 
+  /* comment button */
+  &--comment{
+    font-size: $type-size-5;
+    background-color: $warning-color;
+  }
+
   /* extra large button */
 
   &--x-large {

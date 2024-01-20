@@ -21,7 +21,7 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "discourse" # "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
@@ -77,14 +77,17 @@ analytics:
   google:
     tracking_id          : "G-5C1NQ2SQE1"
 
-
+# <li><a href="https://www.google.com/maps/place/{{ author.street | default: "Diagnosvägen"}}+{{ author.streetnumber | default: "15" }},+{{ author.postcode | default: "416+50" }}+{{ author.city | default: "Göteborg" }}" target="_blank"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location | default: "Diagnosvägen 15<br> 41650 Gothenburg" }}</a></li>
+  
 # Site Author
 author:
   name             : "Perinatal Lab"
   avatar           : "pnatal.png"
   bio              : "Research group"
-  location         : "Gothenburg, SE"
-  employer         : "Gothenburg University, Sahlgrenska Academy"
+  location         : "Gothenurg, SE"
+  pcode            : "P3C3%2BW4"
+  city             : "Gothenburg"
+  employer         : "Gothenburg University,<br/> &emsp; &nbsp; Sahlgrenska Academy"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Jacobsson+B&cauthor_id=37012456"
   googlescholar    : "https://scholar.google.no/citations?user=R7FyCn4AAAAJ&hl=no"
   email            :
@@ -208,6 +211,7 @@ defaults:
       type: pages
     values:
       layout: single
+      comments: true
       author_profile: true
   # _people
   - scope:
@@ -255,7 +259,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
